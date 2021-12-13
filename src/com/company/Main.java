@@ -12,7 +12,6 @@ public class Main {
         int count=1;
         int score = 100;
 
-        double a = Math.random() * (max - min + 1) + min;
         int b = (int)(Math.random()*(max-min+1)+min);
 
         System.out.println("Try to guess the number. It's between " + min + " and " + max + ".");
